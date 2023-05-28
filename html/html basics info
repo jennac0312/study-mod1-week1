@@ -1,0 +1,135 @@
+HTML - HyperText Markup Language 
+__________________________________________________________________________
+
+*** ( "elements" and "tags" are often used interchangebly, however, they are not the same. tags are pieces of an element. <tags> are the "markup")
+
+*** honestly ^^ confuses me so i don't pay it much mind
+
+__________________________________________________________________________
+
+    -CONTENT ONLY
+
+__________________________________________________________________________
+
+    -TAGS ARE SEMANTIC
+        - Each tag exists for a specific purpose
+
+        - why care?
+            1. Search Engine Optimization (SEO)
+                - affects ranking of website in search engines (google, bing, etc.)
+
+            2. Accessibility
+                -  people who are differently-abled ... their access to the internet is poorly affected when coding with bad semantics (think screen readers)
+                ** more info: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
+
+            3. Readability between developers
+                - would you rather search through endless divs when you're trying to edit an article on a webpage? or only have to search for an article tag?
+
+            - More info: https://developer.mozilla.org/en-US/docs/Glossary/Semantics
+
+__________________________________________________________________________
+
+    -TYPES OF ELEMENTS 
+        1. BLOCK LEVEL ELEMENTS (default css-----> display : block;)
+            - take full WIDTH of page (has to start on new line)
+
+            - naturally stack on webpage (top to bottom.. duh that's why it's called BLOCK)
+
+            - browsers automatically add margin (top and bototm)
+
+            - can contain inline level elements and other block level elements (we know this from using divs as containers)(another way of saying BLOCK LEVEL ELEMENTS CAN BE PARENTS)
+
+                - EXAMPLES - <div> ... <p> ... <h1>-<h6>
+
+                    <address> ... <article> ... <aside> ... <blockquote> ... <canvas> ... <dd> ... <div> ... <dl> ... <dt> ... <fieldset> ... <figcaption> ... <figure> ... <footer> ... <form> ... <h1>-<h6> ... <header> ... <hr> ... <li> ... <main> ... <nav> ... <noscript> ... <ol> ... <p> ... <pre> ... <section> ... <table> ... <tfoot> ... <ul> ... <video>
+
+        2. INLINE LEVEL ELEMENTS (default css-----> display: inline;)
+            - does NOT take full width of page (does not start new line)
+
+            - only takes necessary width (contains itself/ its own content)
+
+            - naturally sits side by side on webpage (left to right until row is filled)
+
+            - can NOT contain a block level element
+
+                - EXAMPLES -  <button> ... <img> ... <span> ... <a>
+
+                    <a> ...<abbr> ... <acronym> ... <b> ... <bdo> ...<big> ... <br> ... <button> ... <cite> ... <code> ...<dfn> ... <em> ... <i> ... <img> ... <input> ... <kbd> ... <label> ... <map> ... <object> ... <output> ... <q> ... <samp> ... <script> ... <select> ... <small> ... <span> ... <strong> ... <sub> ... <sup> ... <textarea> ... <time> ... <tt> ... <var>
+
+        3. SELF CLOSING ELEMENTS
+            - do NOT require a closing tag ( </tag> )
+
+            - close themselves automatically
+
+                - EXAMPLES -  ( )
+                     <input/> ... <hr/> ... <br/> ... <img/>
+                ** note that they don't require the / ( <input> <hr> <br> <img> )
+                ** what super important self closing tag am i missing? (hint: it links our html to our css)
+
+__________________________________________________________________________
+
+    -PARTS OF AN HTML TAG
+        - <openingTag attribute="value"> what shows on website </closingTag>
+
+        1. opening tag
+
+        2. closing tag (sometimes!!)
+
+        3. attributes (somtimes!!)
+
+__________________________________________________________________________
+
+    -ATTRIBUTES
+        - additional values/identifiers that allow elements to be manipulated (in css and js)
+
+        - written inside opening <tag>
+            ** <tag class="className anotherClassName" id="idName"> </tag>
+            ** <div class="container"> </div>
+
+        - attribute="value"
+
+        - common attributes 
+            ** class, id, src, href, alt(<img>), placeholder(<input>)
+
+__________________________________________________________________________
+
+    -TAGS HAVE RELATIONSHIPS (parent/child ... siblings)
+        **self explanatory. will come into play in CSS
+
+__________________________________________________________________________
+
+    -CONTROVERSIAL HTML ELEMENTS
+        - controversial because they add STYLE to elements... style is CSS only
+
+                EXAMPLES - 
+                    <br> ... <hr> ... <strong> ... <em> 
+
+                ** however !!!!!!!!!! there are SEMANTIC reasons to use these... ACCESSIBILITY (peole who use screen readers)
+
+__________________________________________________________________________
+
+    -SHORTCUTS
+        - div.classOne.classTwo.classThree
+        - div#onlyId
+            ** followed by tab key autocompletes element with class and/or id attributes and their values inside opening tag
+
+        - comments
+            - ctrl + /
+__________________________________________________________________________
+
+SITES FOR MORE INFO (no specific order)
+    1. https://www.w3schools.com/html/html_blocks.asp#:~:text=A%20block%2Dlevel%20element%20always,p%3E%20and%20.
+
+    2. https://developer.mozilla.org/en-US/docs/Glossary/Semantics
+
+    3. https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
+
+ANY OTHER QUESTIONS?
+    - google your question followed by mdn
+    you'll be lead in the right direction. valuable information @ mdn
+
+
+
+
+
+

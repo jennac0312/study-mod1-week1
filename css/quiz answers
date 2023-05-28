@@ -1,0 +1,95 @@
+1. what does css stand for?
+    - cascading style sheets
+
+
+2. what does css provide for the webpage?
+    - style
+
+
+3. how does the cascade affect our code?
+    - rules below can override rules above
+    3a. what would prevent this cascade affect from working?
+        - if the above specificity has a higher value than the below specificity
+
+
+4. how do you target an element based on it's class?
+    - .
+
+
+5. how do you target an element based on it's id?
+    - #
+
+
+6. true or false: everything is a block.
+    - true
+
+
+7. when block level elements look side-by-side (instead of stacked) on a webpage what css declaration handles that?
+    - display : flex ;
+
+
+8. everything is a _________.
+    - box
+
+
+9. when you see # think _________.
+    - id
+
+
+10. when you see . think _________.
+    - class
+
+__________________________________________________________________________
+
+REFER TO example-css.png FILE
+
+11. name a selector from the code.
+    - body, article, footer, header
+
+
+12. how many rules are there?
+    - 4
+
+
+13. how man declarations does footer have?
+    - 4
+
+
+14. how many declarations does body have?
+    - 1
+
+
+15. what is the 2nd rule?
+    - article{
+        color: #5C373C; 
+        margin: 10px;
+        }
+
+
+16. look at the 2nd declaration of the 3rd rule.
+    15a. what is the property?
+        - font-style
+    15.b what is the value?
+        - italic
+
+
+17. look at the header rule. 
+    17a. what is the margin-top value?
+        - 20px
+    17b. what is the margin-left value?
+        - 30px
+
+
+18. look at the header rule.
+    18a. what is the padding-bottom value?
+        - 10px
+    18b. what is the padding-right value?
+        - 20px
+
+
+19. true or false: article has margin on all 4 sides?
+    - true
+
+
+20. true or false: header only has margin on top and bottom?
+    - false. has margin on all 4 sides

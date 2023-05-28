@@ -1,0 +1,56 @@
+1. what does css stand for?
+
+
+2. what does css provide for the webpage?
+
+
+3. how does the cascade affect our code?
+        3a. what would prevent this cascade affect from working?
+
+
+4. how do you target an element based on it's class?
+
+
+5. how do you target an element based on it's id?
+
+
+6. true or false: everything is a block.
+
+
+7. when block level elements look side-by-side (instead of stacked) on a webpage what css declaration handles that?
+
+8. everything is a _________.
+
+9. when you see # think _________.
+
+10. when you see . think _________.
+
+__________________________________________________________________________
+
+REFER TO example-css.png FILE
+
+11. name a selector from the code.
+
+12. how many rules are there?
+
+13. how man declarations does footer have?
+
+14. how many declarations does body have?
+
+15. what is the 3rd rule?
+
+16. look at the 2nd declaration of the 3rd rule.
+    15a. what is the property?
+    15.b what is the value?
+
+17. look at the header rule. 
+    17a. what is the margin-top value?
+    17b. what is the margin-left value?
+
+18. look at the header rule.
+    18a. what is the padding-bottom value?
+    18b. what is the padding-right value?
+
+19. true or false: article has margin on all 4 sides?
+
+20. true or false: header only has margin on top and bottom?

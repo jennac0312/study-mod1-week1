@@ -1,0 +1,173 @@
+CSS - Cascading Style Sheets
+__________________________________________________________________________
+ 
+    -STYLE ONLY
+__________________________________________________________________________
+
+    -SYNTAX
+
+        ** Leon Noel Youtube class 04: 40:00 ish mins
+            https://www.youtube.com/watch?v=Q1Obtn29twk&list=PLBf-QcbaigsJysJ-KFZvLGJvvW-3sfk1S&index=4
+
+
+        - "CSS Rule"
+            "selector" {
+                "declaration block"
+                "property" : "value" ;  "declaration"
+            }
+        ____________________________
+        EXAMPLE
+            p {
+                color: red;
+                font-weight: bold;
+            }
+        ____________________________
+                - CSS RULE: 
+                                p {
+                                    color: red;
+                                    font-weight: bold;
+                                }
+
+                - SELECTOR: p
+
+                - DECLARATION BLOCK: 
+                                    {
+                                    color: red;
+                                    font-weight: bold;
+                                }
+
+                - DECLARATION:
+                    color: red 
+                    &
+                    font-weight: bold
+
+                - PROPERTY: 
+                color & font-weight
+
+                - VALUE: 
+                red & bold
+
+__________________________________________________________________________
+
+    -CASCADE
+
+        ** when i hear cascade i think "downward" "falling" 
+        - CSS is a cascade
+            ** rules below can OVERRIDE rules above (depending on specificity)
+
+__________________________________________________________________________
+
+    -SPECIFICITY 
+
+        ***(LEON NOEL class 04 ... ~ 2:28:00 ... https://www.youtube.com/watch?v=Q1Obtn29twk&list=PLBf-QcbaigsJysJ-KFZvLGJvvW-3sfk1S&index=4)
+
+        - strength(value) of css selectors
+
+        - tag value = 1 point (for each tag)
+
+        - .class value = 10 points
+
+        - #id value = 100 points
+        
+        - !important = 1000 points ("bang important" @ end of declaration but inside of ;)
+
+        - inline style = 1000 points
+        
+        -Affects override in cascade...
+            ** rules above can ONLY be overwritten by rules below IF the bottom rule has EQUAL or GREATER than specificity
+
+__________________________________________________________________________
+
+    -SELECTORS
+
+        **(Leon Noel Class 04 ... ~ 2:10:00 ... https://www.youtube.com/watch?v=Q1Obtn29twk&list=PLBf-QcbaigsJysJ-KFZvLGJvvW-3sfk1S&index=4)
+
+        TYPES OF SELECTORS:
+            1. tag (p ||(or) div || span etc.)
+            2. class .
+            3. id #
+            4. relationship
+                a. parent/child
+                b. sibling
+            5. pseudo classes (selector:pseudo{} ... ex -> button:hover{})
+            6. pseudo elements (selector::pseudo{}  ... ex -> p::first-line)
+
+                - . -> targets classes
+
+                - # -> targets id
+                
+                - div p -> targets p that's a child of div (parent child/"grandchild")
+
+                - div > p -> targets p thats a DIRECT child of div (parent > child ... direct)
+
+                - div + p -> targets p thats a next sibling of div (previous sibling + next sibling(target))
+
+
+        ** MDN MORE INFO:
+            - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
+
+__________________________________________________________________________
+
+    -BOX MODEL 
+
+        **(LEON NOEL class 05 ... ~2:38:00 ... https://www.youtube.com/watch?v=E6Z8cWU_fjI&list=PLBf-QcbaigsJysJ-KFZvLGJvvW-3sfk1S&index=5  NO ONE WILL EXPLAIN IT BETTER THAN HIM!!! )
+
+        - Parts of the box model
+            1. height
+                -inside (is the content itself)
+
+            2. width
+                -inside (is the content itself)
+
+            3. padding
+                - inside box
+
+            4. border
+                - perimeter of box (marks edge)
+
+            5. margin
+                -pushes box around
+                - think BULLY
+
+__________________________________________________________________________
+
+    -EVERYTHING IS A BOX !!!!!!!!!!!!!!!!!
+
+__________________________________________________________________________
+
+    -COLORS
+
+        1. word ... red blue green ... lightred ... yellowgreen
+        2. hex.. (hexadecimal) ... # + 6 chars (#FF0000)
+        3. RGBa ... rgba(255,0,0,1) .. red blue green alpha channel (handles transparency) 
+        4. HSLa ... hsla(0, 100%, 50%, 1) hue saturation lightness alpha
+
+__________________________________________________________________________
+
+    -SHORTCUTS
+
+        - padding & margin
+            padding: all (1 value applied to all sides)
+            padding: top  right  bottom  left (4 values applied clockwise)
+            padding: top/bottom  right/left (2 values applied t/b & r/l)
+            ** same for marign ^
+
+        - border
+            border: 2px solid red (width, style, color)
+            ** instead of border-width:, border-style:, border-color:
+        
+        - comments
+            - ctrl + /
+
+__________________________________________________________________________
+
+
+LEARNING ACTIVITIES
+
+    1. https://learnlayout.com/display.html
+
+    FLEXBOX
+    1. Flex-froggy: https://flexboxfroggy.com/
+    2. Flex-zombies: https://mastery.games/post/flexboxzombies2/
+
+

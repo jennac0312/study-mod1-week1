@@ -1,0 +1,45 @@
+1. what does html stand for?
+
+2. what tag connects html to css file?
+    2a. where is this tag located?
+    2b. what attribute is the css file a value for?
+
+3. what tag connects html to js file?
+    3a. where is this tag located?
+    3b. what attribute is the js file a value for?
+
+4. what does the html file provide for a webpage?
+
+5. what is a block level element?
+    5a. what are 2 examples?
+
+6. what is an inline level element?
+    6a. what are 2 examples?
+
+7. true or false: block level elements can contain other block elements?
+
+8. true or false: block level elements can contain inline  elements?
+
+9. true or false: inline level elements can contain block elements?
+
+10. true or false: inline level elements can contain other inline elements?
+
+11. where are attributes found?
+
+12. what is the attribute that allows unqiue identification?
+
+13. what is the attribute that allows grouped identifiction? (shared... not unique.. multiple elements can have the same)
+
+14. true or false: each element can have multiple classes?
+
+15. true of false: multiple elements can have the same class?
+
+16. true of false: each element can have multiple ids?
+
+17. true of false: multiple elements can have the same id?
+
+18. <img> <input> <link> are examples of what type of tags?
+
+*bonus*
+    1. what are the first 3 things to do when you open an html file?
+        

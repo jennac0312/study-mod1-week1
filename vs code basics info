@@ -1,0 +1,72 @@
+VS CODE BASICS
+
+    MOST IMPORTANT
+        1. ●
+            ** file is UNSAVED ... seen right next to file name
+
+__________________________________________________________________________
+
+    SETTINGS TO CHANGE
+        1. Word Wrap ---- change to ON
+            ** wraps code to new line based on vs code width.
+            **purpose is to avoid the endless horizontal scroll
+
+        2. Terminal Default
+            ** little hard to find.. Erik(?) shared article explaining how in stack
+            ** "Terminal › Integrated › Default Profile: Windows" --- choose git bash from drop down menu
+
+__________________________________________________________________________
+
+    EXTENSIONS TO INSTALL
+        1. OPEN IN BROWSER || (or) LIVE SERVER
+            ** open in browser does not reload page automatically. you have to save your files and then REFRESH the webpage yourself
+            (the guy i learned from reccomended this that way we always remmeber to save and refresh the page ourselves)
+
+            ** live server is automatic when you save your vs files... the webpage listens out for saves
+
+
+        2. PRETTIER - CODE FORMATTER
+            ** formats code... makes it look prettier
+
+__________________________________________________________________________
+
+    SHORTCUTS
+    1. OPEN/CLOSE TERMINAL
+        - ctrl + ` (before 1 key, above tab key)
+
+
+    2. MOVE SINGLE LINE IN CODE AROUND
+        - atl + arrow key
+            * SINGLE LINE -> cursor must be flashing anywhere on the line
+            * MULTIPLE LINES -> together, highlight all lines (highlight can be partial.. as long as cursor is somewhere on the first and last line you want to move)
+
+    3. COPY/PASTE LINES IN CODE
+        - alt + shift + arrow key
+            ** SINGLE LINE -> cursor must be flashing anywhere within the line you want to copy up/down
+            ** MULTIPLE LINES -> together, highlight all lines (highlight can be partial.. as long as cursor is somewhere on the first and last line you want to move)
+    
+    4. AUTO FINISH CODE
+        - tab
+            ** start typing -> suggestion list shows -> tab key auto completes top suggestion
+    
+    5. ZOOM/UNZOOM
+        - ctrl + +/-
+
+__________________________________________________________________________
+    
+
+    HTML SPECIFIC SHORTCUTS
+        1. .
+            ** auto completes class
+            ** EXAMPLE
+                h1.classOne.anotherClass.aThirdClass (+ tab/enter) ->
+                <h1 class="classOne anotherClass aThirdClass"></h1>
+
+        2. #
+            ** auto completes id
+            ** EXAMPLE
+                h1#firstAndOnlyId (+ tab/enter) ->
+                <h1 id="firstAndOnlyId"></h1>
+
+        -SIDENOTE
+            ** i think it's best to use tab key since it has similar abilities in the terminal
