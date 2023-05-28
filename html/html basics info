@@ -12,6 +12,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 
     -TAGS ARE SEMANTIC
+
         - Each tag exists for a specific purpose
 
         - why care?
@@ -30,6 +31,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 
     -TYPES OF ELEMENTS 
+
         1. BLOCK LEVEL ELEMENTS (default css-----> display : block;)
             - take full WIDTH of page (has to start on new line)
 
@@ -69,6 +71,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 
     -PARTS OF AN HTML TAG
+
         - <openingTag attribute="value"> what shows on website </closingTag>
 
         1. opening tag
@@ -80,6 +83,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 
     -ATTRIBUTES
+
         - additional values/identifiers that allow elements to be manipulated (in css and js)
 
         - written inside opening <tag>
@@ -94,11 +98,13 @@ __________________________________________________________________________
 __________________________________________________________________________
 
     -TAGS HAVE RELATIONSHIPS (parent/child ... siblings)
+
         **self explanatory. will come into play in CSS
 
 __________________________________________________________________________
 
     -CONTROVERSIAL HTML ELEMENTS
+
         - controversial because they add STYLE to elements... style is CSS only
 
                 EXAMPLES - 
@@ -109,6 +115,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 
     -SHORTCUTS
+
         - div.classOne.classTwo.classThree
         - div#onlyId
             ** followed by tab key autocompletes element with class and/or id attributes and their values inside opening tag
@@ -118,6 +125,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 
 SITES FOR MORE INFO (no specific order)
+
     1. https://www.w3schools.com/html/html_blocks.asp#:~:text=A%20block%2Dlevel%20element%20always,p%3E%20and%20.
 
     2. https://developer.mozilla.org/en-US/docs/Glossary/Semantics

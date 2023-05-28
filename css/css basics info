@@ -150,7 +150,7 @@ __________________________________________________________________________
             padding: all (1 value applied to all sides)
             padding: top  right  bottom  left (4 values applied clockwise)
             padding: top/bottom  right/left (2 values applied t/b & r/l)
-            ** same for marign ^
+            ** same for margin ^
 
         - border
             border: 2px solid red (width, style, color)
