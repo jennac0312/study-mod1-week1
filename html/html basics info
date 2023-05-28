@@ -120,8 +120,13 @@ __________________________________________________________________________
         - div#onlyId
             ** followed by tab key autocompletes element with class and/or id attributes and their values inside opening tag
 
+        - lorem ipsum
+            - lorem10 (followed by any #... gives you that many words of latin text)
+            - placeholder text that helps plan out structure without neding actual content
+
         - comments
             - ctrl + /
+
 __________________________________________________________________________
 
 SITES FOR MORE INFO (no specific order)
@@ -131,6 +136,9 @@ SITES FOR MORE INFO (no specific order)
     2. https://developer.mozilla.org/en-US/docs/Glossary/Semantics
 
     3. https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
+
+    4. https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure
+
 
 ANY OTHER QUESTIONS?
     - google your question followed by mdn

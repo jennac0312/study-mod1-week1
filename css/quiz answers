@@ -93,3 +93,11 @@ REFER TO example-css.png FILE
 
 20. true or false: header only has margin on top and bottom?
     - false. has margin on all 4 sides
+
+__________________________________________________________________________
+
+21. what is responsive design?
+    -mdn definition:
+        -Responsive web design (RWD) is a web design approach to make web pages render well on all screen sizes and resolutions while ensuring good usability
+    -my definition:
+        -design that allows webpage content structure to changes depending on screen size

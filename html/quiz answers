@@ -85,8 +85,28 @@
 18. <img> <input> <link> are examples of what type of tags?
     - self closing tags
 
-*bonus*
-    1. what are the first 3 things to do when you open an html file?
+
+19. what are the first 3 things to do when you open an html file?
         1. ! tab (populates starting html code)
         2. add <link> tag (connect css)
         3. add <script> tag (connect js)
+    19a. what process should you start immediately after?
+        - wireframe
+
+
+20. what is a wireframe?
+    - google definition:
+        - A wireframe is a two-dimensional illustration of a page's interface that specifically focuses on space allocation and prioritization of content, functionalities available, and intended behaviors. For these reasons, wireframes typically do not include any styling, color, or graphics.
+
+    - my definition: 
+        - a map for a webpage's basic layout. 
+
+
+21. what is containerization?
+    - my definition: 
+        - grouping of html elements (helps with site structure ... groups similar elements inside the same parent element)
+        
+    - if anyone can locate jordan's definition from the letcure please lmk and i will add it here
+
+22. what is the shortcut for "dummy" text?
+    - lorem70 (follow by any number... will give that man words of latin text)
