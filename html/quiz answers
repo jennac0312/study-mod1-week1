@@ -84,3 +84,9 @@
 
 18. <img> <input> <link> are examples of what type of tags?
     - self closing tags
+
+*bonus*
+    1. what are the first 3 things to do when you open an html file?
+        1. ! tab (populates starting html code)
+        2. add <link> tag (connect css)
+        3. add <script> tag (connect js)
