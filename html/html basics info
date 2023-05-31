@@ -1,7 +1,8 @@
 HTML - HyperText Markup Language 
 __________________________________________________________________________
 
-*** ( "elements" and "tags" are often used interchangebly, however, they are not the same. tags are pieces of an element. <tags> are the "markup")
+*** ( "elements" and "tags" are often used interchangebly, however, they are not the same. 
+    tags are pieces of an element. <tags> are the "markup")
 
 *** honestly ^^ confuses me so i don't pay it much mind
 
@@ -20,11 +21,13 @@ __________________________________________________________________________
                 - affects ranking of website in search engines (google, bing, etc.)
 
             2. Accessibility
-                -  people who are differently-abled ... their access to the internet is poorly affected when coding with bad semantics (think screen readers)
+                -  people who are differently-abled ... their access to the internet is poorly affected when coding with bad semantics 
+                    (think screen readers)
                 ** more info: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
 
             3. Readability between developers
-                - would you rather search through endless divs when you're trying to edit an article on a webpage? or only have to search for an article tag?
+                - would you rather search through endless divs when you're trying to edit an 
+                    article on a webpage? or only have to search for an article tag?
 
             - More info: https://developer.mozilla.org/en-US/docs/Glossary/Semantics
 
@@ -39,11 +42,18 @@ __________________________________________________________________________
 
             - browsers automatically add margin (top and bototm)
 
-            - can contain inline level elements and other block level elements (we know this from using divs as containers)(another way of saying BLOCK LEVEL ELEMENTS CAN BE PARENTS)
+            - can contain inline level elements and other block level elements 
+            (we know this from using divs as containers)(another way of saying BLOCK LEVEL ELEMENTS CAN BE PARENTS)
 
                 - EXAMPLES - <div> ... <p> ... <h1>-<h6>
 
-                    <address> ... <article> ... <aside> ... <blockquote> ... <canvas> ... <dd> ... <div> ... <dl> ... <dt> ... <fieldset> ... <figcaption> ... <figure> ... <footer> ... <form> ... <h1>-<h6> ... <header> ... <hr> ... <li> ... <main> ... <nav> ... <noscript> ... <ol> ... <p> ... <pre> ... <section> ... <table> ... <tfoot> ... <ul> ... <video>
+                    <address> ... <article> ... <aside> ... 
+                    <blockquote> ... <canvas> ... <dd> ... <div> 
+                    ... <dl> ... <dt> ... <fieldset> ... <figcaption>
+                    ... <figure> ... <footer> ... <form> ... <h1>-<h6>
+                    ... <header> ... <hr> ... <li> ... <main> ... <nav>
+                    ... <noscript> ... <ol> ... <p> ... <pre> ... <section>
+                    ... <table> ... <tfoot> ... <ul> ... <video>
 
         2. INLINE LEVEL ELEMENTS (default css-----> display: inline;)
             - does NOT take full width of page (does not start new line)
@@ -56,7 +66,14 @@ __________________________________________________________________________
 
                 - EXAMPLES -  <button> ... <img> ... <span> ... <a>
 
-                    <a> ...<abbr> ... <acronym> ... <b> ... <bdo> ...<big> ... <br> ... <button> ... <cite> ... <code> ...<dfn> ... <em> ... <i> ... <img> ... <input> ... <kbd> ... <label> ... <map> ... <object> ... <output> ... <q> ... <samp> ... <script> ... <select> ... <small> ... <span> ... <strong> ... <sub> ... <sup> ... <textarea> ... <time> ... <tt> ... <var>
+                    <a> ...<abbr> ... <acronym> ... <b> ... <bdo>
+                    ...<big> ... <br> ... <button> ... <cite> ... 
+                    <code> ...<dfn> ... <em> ... <i> ... <img> ... 
+                    <input> ... <kbd> ... <label> ... <map> ... <object>
+                    ... <output> ... <q> ... <samp> ... <script> ... 
+                    <select> ... <small> ... <span> ... <strong> ... 
+                    <sub> ... <sup> ... <textarea> ... <time> ... 
+                    <tt> ... <var>
 
         3. SELF CLOSING ELEMENTS
             - do NOT require a closing tag ( </tag> )
@@ -110,7 +127,8 @@ __________________________________________________________________________
                 EXAMPLES - 
                     <br> ... <hr> ... <strong> ... <em> 
 
-                ** however !!!!!!!!!! there are SEMANTIC reasons to use these... ACCESSIBILITY (peole who use screen readers)
+                ** however !!!!!!!!!! there are SEMANTIC reasons to use these... 
+                ACCESSIBILITY (peole who use screen readers)
 
 __________________________________________________________________________
 
@@ -118,7 +136,8 @@ __________________________________________________________________________
 
         - div.classOne.classTwo.classThree
         - div#onlyId
-            ** followed by tab key autocompletes element with class and/or id attributes and their values inside opening tag
+            ** followed by tab key autocompletes element with class 
+                and/or id attributes and their values inside opening tag
 
         - lorem ipsum
             - lorem10 (followed by any #... gives you that many words of latin text)
